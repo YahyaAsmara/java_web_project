@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+	<link rel="stylesheet" href="baseecss.css">
+</head>
+
+<body id="hi">
+	<div id="gray-background"></div>
+	<div id="red-background"></div>
+	<div id="grayer-background"></div>
+	<div id="light-gray-background"></div>
+	<div id="white-background"></div>
+	<div id="main-body" class="container">
+		<h1 id="title">Don't tap the white tiles</h1>
+		<h1 id="score">Score: 0</h1>
+		<h1 id="time">Time limit: 30 seconds</h1>
+		<table>
+			<tr>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+			</tr>
+			<tr>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+			</tr>
+			<tr>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+			</tr>
+			<tr>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+				<td class="tile"></td>
+			</tr>
+		</table>
+		<button id = "top" type="button" class="nes-btn is-error" onclick="window.location.href='index.html'">Home</button>
+		<button id = "top" type="button" class="nes-btn is-error" onclick = "getInput()">Select</button>
+		<button id = "top" class="nes-btn is-error from-left nes-pointer" onclick = "randomizer()">Start</button>
+	</div>
+	<script src="game.js"></script>
+</body>
+</html>

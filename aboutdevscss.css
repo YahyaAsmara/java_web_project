@@ -1,0 +1,67 @@
+body {
+	font-family: "Press Start 2P";
+	color: #FFFFFF;
+}
+
+#gray-background {
+	background-color: #484848;
+	position: fixed;
+	height:100%;
+	width:100%;
+}
+
+#red-background {
+background-color: #AC0000;
+	top:62%;
+	height:3%;
+	width:100%;
+	position: fixed;
+}
+
+#grayer-background {
+	background-color: #606060;
+	top: 65%;
+	height:3%;
+	width:100%;
+	position:fixed;
+}
+
+#light-gray-background {
+	background-color: #919191;
+	top:68%;
+	height:3%;
+	width: 100%;
+	position: fixed;
+}
+
+#white-background {
+	background-color: #FFFFFF;
+	top:71%;
+	height: 3%;
+	width: 100%;
+	position: fixed;
+}
+
+#main-body {
+  position: relative;
+  width: 1550px;
+  height: 100px;
+  text-align: center;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+#title {
+	position: relative;
+}
+
+i {
+	font-size: 35px;
+}
+
+p {
+	font-size: 25px;
+	margin: 10px 50px;
+}
